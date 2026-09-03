@@ -87,3 +87,28 @@ I installed Active Directory Domain Services on DC-1 and promoted the server to 
 ![Active Directory Users and Computers showing organizational units and employee accounts](images/aduc-employees-and-ous.png)
 
 - Tested signing in to Client-1 using a domain user account.
+
+
+## Part 3: Group Policy and Account Management
+
+I practiced managing Active Directory user accounts and used Group Policy to control account lockout behavior. I also reviewed Windows logs on both the domain controller and client machine.
+
+### Account Lockout Policy
+
+- Configured Group Policy to lock user accounts after five failed sign-in attempts.
+- Tested the policy using a domain user account.
+- Verified that the account became locked in Active Directory.
+- Unlocked the account and reset the user's password.
+- Confirmed that the user could sign in again after the account was restored.
+
+### Enabling and Disabling Accounts
+
+- Disabled a user account in Active Directory.
+- Verified that the disabled user could no longer sign in.
+- Re-enabled the account and confirmed that sign-in access was restored.
+
+### Event Logs
+
+- Reviewed Windows event logs on DC-1.
+- Reviewed Windows event logs on Client-1.
+- Used the logs to observe activity related to user authentication and account management.
