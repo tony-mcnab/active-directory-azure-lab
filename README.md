@@ -17,6 +17,7 @@ This project documents the Active Directory lab I completed using Microsoft Azur
 
 
 ## Lab Architecture
+![Azure resource group showing the Active Directory lab resources](images/azure-resource-group.png)
 
 The lab was built in Microsoft Azure using two virtual machines connected to the same virtual network.
 
