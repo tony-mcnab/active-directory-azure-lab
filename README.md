@@ -75,4 +75,7 @@ I installed Active Directory Domain Services on DC-1 and promoted the server to 
 - Enabled Remote Desktop access for domain users on Client-1.
 - Used PowerShell to create multiple Active Directory user accounts.
 - Verified that the new accounts appeared in the **_EMPLOYEES** OU.
+
+![Active Directory Users and Computers showing organizational units and employee accounts](images/aduc-employees-and-ous.png)
+
 - Tested signing in to Client-1 using a domain user account.
