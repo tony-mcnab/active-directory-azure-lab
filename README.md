@@ -53,3 +53,26 @@ I created the basic Azure environment needed for the Active Directory lab.
 From Client-1, I used `ping` to verify connectivity to DC-1 at `10.0.1.4`.
 
 ![Successful ping from Client-1 to DC-1](images/client1-ping-dc1.png)
+
+
+## Part 2: Deploying Active Directory
+
+I installed Active Directory Domain Services on DC-1 and promoted the server to a domain controller. I then created organizational units and administrative users, joined Client-1 to the domain, and tested domain user access.
+
+### Active Directory Domain Setup
+
+- Installed Active Directory Domain Services on DC-1.
+- Promoted DC-1 to a domain controller and created a new Active Directory forest.
+- Created an **_EMPLOYEES** Organizational Unit (OU).
+- Created an **_ADMINS** Organizational Unit (OU).
+- Created a domain administrator account and added it to the **Domain Admins** security group.
+- Joined Client-1 to the Active Directory domain.
+- Verified that Client-1 appeared in Active Directory Users and Computers.
+- Created a **_CLIENTS** OU and moved Client-1 into it.
+
+### Domain User Access
+
+- Enabled Remote Desktop access for domain users on Client-1.
+- Used PowerShell to create multiple Active Directory user accounts.
+- Verified that the new accounts appeared in the **_EMPLOYEES** OU.
+- Tested signing in to Client-1 using a domain user account.
