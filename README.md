@@ -41,4 +41,7 @@ I created the basic Azure environment needed for the Active Directory lab.
 - Created a Windows 10 virtual machine named **Client-1**.
 - Connected both virtual machines to the same Virtual Network.
 - Configured DC-1 with a static private IP address.
+
+![DC-1 static private IP configuration](images/dc1-static-private-ip.png)
+
 - Configured Client-1 to use DC-1's private IP address as its DNS server.
