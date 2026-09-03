@@ -101,6 +101,9 @@ I practiced managing Active Directory user accounts and used Group Policy to con
 
 - Tested the policy using a domain user account.
 - Verified that the account became locked in Active Directory.
+
+![Remote Desktop message showing a user account locked after too many failed sign-in attempts](images/account-locked-message.png)
+
 - Unlocked the account and reset the user's password.
 - Confirmed that the user could sign in again after the account was restored.
 
