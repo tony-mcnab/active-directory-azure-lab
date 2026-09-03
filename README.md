@@ -48,3 +48,8 @@ I created the basic Azure environment needed for the Active Directory lab.
 
 ![Client-1 custom DNS configuration pointing to DC-1](images/client1-dns-configuration.png)
 
+### Connectivity Test
+
+From Client-1, I used `ping` to verify connectivity to DC-1 at `10.0.1.4`.
+
+![Successful ping from Client-1 to DC-1](images/client1-ping-dc1.png)
