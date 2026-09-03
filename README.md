@@ -45,3 +45,6 @@ I created the basic Azure environment needed for the Active Directory lab.
 ![DC-1 static private IP configuration](images/dc1-static-private-ip.png)
 
 - Configured Client-1 to use DC-1's private IP address as its DNS server.
+
+![Client-1 custom DNS configuration pointing to DC-1](images/client1-dns-configuration.png)
+
