@@ -75,7 +75,13 @@ I installed Active Directory Domain Services on DC-1 and promoted the server to 
 ### Domain User Access
 
 - Enabled Remote Desktop access for domain users on Client-1.
-- Used PowerShell to create multiple Active Directory user accounts.
+- Used a PowerShell script provided during the course to automate the creation of multiple Active Directory user accounts.
+
+![PowerShell script used during the lab to automate Active Directory user creation](images/powershell-user-creation.png)
+
+> PowerShell user-creation script by Josh Madakor, used as part of the Active Directory course lab.  
+> [View the original script on GitHub](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+
 - Verified that the new accounts appeared in the **_EMPLOYEES** OU.
 
 ![Active Directory Users and Computers showing organizational units and employee accounts](images/aduc-employees-and-ous.png)
