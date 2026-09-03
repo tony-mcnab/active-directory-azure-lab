@@ -96,6 +96,9 @@ I practiced managing Active Directory user accounts and used Group Policy to con
 ### Account Lockout Policy
 
 - Configured Group Policy to lock user accounts after five failed sign-in attempts.
+
+![Group Policy account lockout settings configured for five invalid logon attempts](images/group-policy-account-lockout.png)
+
 - Tested the policy using a domain user account.
 - Verified that the account became locked in Active Directory.
 - Unlocked the account and reset the user's password.
