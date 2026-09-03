@@ -70,6 +70,8 @@ I installed Active Directory Domain Services on DC-1 and promoted the server to 
 - Verified that Client-1 appeared in Active Directory Users and Computers.
 - Created a **_CLIENTS** OU and moved Client-1 into it.
 
+![Client-1 computer account inside the _CLIENTS organizational unit](images/aduc-client1-ou.png)
+
 ### Domain User Access
 
 - Enabled Remote Desktop access for domain users on Client-1.
