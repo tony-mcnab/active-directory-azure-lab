@@ -129,3 +129,22 @@ I practiced managing Active Directory user accounts and used Group Policy to con
 
 - Reviewed Windows event logs on Client-1 to observe authentication-related activity.
 - Used the logs to observe activity related to user authentication and account management.
+
+
+## Skills Demonstrated
+
+- Microsoft Azure virtual machine deployment
+- Azure virtual networking
+- Static private IP configuration
+- DNS configuration and troubleshooting
+- Windows Server 2022 administration
+- Active Directory Domain Services
+- Domain controller configuration
+- Active Directory users, computers, groups, and organizational units
+- Joining Windows clients to a domain
+- PowerShell-based user account creation
+- Group Policy configuration
+- Account lockout troubleshooting
+- User account disabling, enabling, unlocking, and password resets
+- Windows Event Viewer and Security log analysis
+- Remote Desktop
