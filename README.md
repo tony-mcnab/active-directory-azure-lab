@@ -114,6 +114,9 @@ I practiced managing Active Directory user accounts and used Group Policy to con
 
 - Disabled a user account in Active Directory.
 - Verified that the disabled user could no longer sign in.
+
+![Remote Desktop message showing that the user account is disabled](images/disabled-account-signin-error.png)
+
 - Re-enabled the account and confirmed that sign-in access was restored.
 
 ### Event Logs
