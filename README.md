@@ -121,6 +121,11 @@ I practiced managing Active Directory user accounts and used Group Policy to con
 
 ### Event Logs
 
-- Reviewed Windows event logs on DC-1.
-- Reviewed Windows event logs on Client-1.
+- Reviewed Windows Security logs on DC-1.
+- Filtered the Security log for Event ID **4740** to investigate an account lockout.
+- Verified that the event identified the affected domain user.
+
+![Event Viewer showing Event ID 4740 for an Active Directory account lockout](images/event-viewer-account-lockout.png)
+
+- Reviewed Windows event logs on Client-1 to observe authentication-related activity.
 - Used the logs to observe activity related to user authentication and account management.
