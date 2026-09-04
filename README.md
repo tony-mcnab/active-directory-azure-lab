@@ -148,3 +148,8 @@ I practiced managing Active Directory user accounts and used Group Policy to con
 - User account disabling, enabling, unlocking, and password resets
 - Windows Event Viewer and Security log analysis
 - Remote Desktop
+
+
+## Lab Context
+
+This project was completed as part of the CourseCareers IT Support curriculum and documented here as a portfolio project using the Active Directory environment I built in Microsoft Azure.
